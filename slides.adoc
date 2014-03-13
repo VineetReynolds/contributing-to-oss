@@ -29,14 +29,14 @@ To discover how contributing to OSS helps you, and to learn how to contribute.
 == Operate in the real world
 
 [.incremental]
-* Work in a team
+* You get to work in a team
 * And ship *deliverables* to users
-* With good tools using some of the best practices
+* Using good tools while employing good practices
 ** *SCM* - Git, SVN, Hg
 ** *Build* - Make, Maven, Gradle
-** *CI* - Jenkins, Go, Travis
-** *Issue management* - Bugzilla, JIRA
-** *Review contributions* - Gerrit, GitHub
+** *CI* - Jenkins, Go, Travis, Teamcity
+** *Issue management* - Bugzilla, JIRA, Mantis, Trac, Redmine
+** *Review contributions* - Gerrit, GitHub, Bitbucket
 ** *User documentation* - Asciidoc, Docbook, Publican
 
 [.topic.source]
@@ -63,17 +63,22 @@ They're integral to today's computing infrastructure.
 [.topic.source]
 == Develop an independently verifiable resume
 
-Facts are *independently verifiable*.
+Independently Verifiable? Why does it matter?
+
+Facts are *independently verifiable*. They're *undisputed*.
+
+[.topic.source]
+== Develop an independently verifiable resume
 
 * Independently?
 ** The *burden of proof* is not always on you.
-** The author of *that nifty feature* can be discovered.
+** The author of contributions can be discovered by others.
 
 [.topic.source]
 == Develop an independently verifiable resume
 
 * Verifiable?
-** Your contributions are public. They can be directly examined by others.
+** Your contributions are public. They can be examined and verified by others.
 ** Contributions are reflected in release notes, list of contributors, mailing list archives, bug trackers, commit logs among others.
 
 == !
@@ -82,3 +87,55 @@ Facts are *independently verifiable*.
 
 [.topic.source]
 == Work with and learn from really Smart People^TM^
+
+* Smart people tend to work with other smarter people.
+* An OSS project with smart people begets others.
+* The best thing you could do for yourself is to learn from them.
+
+[.topic.source]
+== Work with and learn from really Smart People^TM^
+
+Learning happens when:
+
+* You discuss new features or bug fixes.
+* You perform code reviews or have your code reviewed.
+* *You are engaged in the project*.
+
+[.topic.source]
+== Tips on getting started with OSS
+
+* Choose a project to contribute to.
+** Preferably one that you already use.
+* Get very familiar with it.
+** Get involved on mailing lists and IRC.
+** Discover problem areas. Use the issue tracker.
+** Discuss on resolving issues and adding features.
+** Learn about the processes. Some projects require contributions in only one form.
+** Submit a patch.
+
+[.topic.source]
+== Tips on getting started with OSS
+
+* Be courteous.
+* Communicate well.
+* Learn the political waters. Every project has them.
+* Learn from your mistakes. And correct them.
+
+[.topic.source]
+== A sustained contribution model
+
+* Keep at it.
+* Become a committer. You can do anything now^well not really^
+* Become the most knowledgeable in an subject area.
+* Be open to opportunities.
+** Present at conferences
+** Review books about the project, or even author them yourself.
+** Support related projects that build on yours.
+** Consult for companies part/full-time.
+
+[.topic.source]
+== Credits
+
+NOTE: Slides generated with Asciidoctor and DZSlides backend
+
+NOTE: Original slide template - Dan Allen & Sarah White
