@@ -1,4 +1,4 @@
-= Contributing to Open Source with Red Hat
+= Contributing to Open Source Software with Red Hat
 Vineet Reynolds ; Kaushal Madappa
 include::attributes.adoc[]
 
@@ -16,26 +16,26 @@ include::attributes.adoc[]
 == !
 
 [.statement]
-`Objective` +
-To discover how contributing to OSS helps you, and to learn how to contribute.
+`Objectives` +
+Learn how contributing to Open Source Software (OSS) helps you and how to contribute.
 
 [.topic.source]
-== Why should you contribute to OSS ?
+== Why should you contribute to OSS?
 
-* Operate in the real world
+* OSS development == Real world development
 * Work on projects that matter
 * Develop an independently verifiable resume
-* Work with and learn from really Smart People^TM^
+* Work with and learn from Really Smart People^TM^
 
 [.topic.source]
-== Operate in the real world
+== Real world development
 
 [.incremental]
-* You get to work in a team
-* And ship *deliverables* to users
-* Using good tools while employing good practices
+* Collaborative, team-based work
+* Produce *deliverables* for end-users
+* Develop good practices and learn good tools:
 ** *SCM* - Git, SVN, Hg
-** *Build* - Make, Maven, Gradle
+** *Build* - make, Maven, Gradle
 ** *CI* - Jenkins, Go, Travis, Teamcity
 ** *Issue management* - Bugzilla, JIRA, Mantis, Trac, Redmine
 ** *Review contributions* - Gerrit, GitHub, Bitbucket
@@ -44,19 +44,20 @@ To discover how contributing to OSS helps you, and to learn how to contribute.
 [.topic.source]
 == Work on projects that matter
 
-* Good open source projects do not exist for vanity.
-* They solve a particular problem for businesses ...
-* In a really good way.
+Good open source projects:
+
+* Do not exist for vanity
+* Target a particular problem or set of related problems
+* Provide solutions for businesses and individuals
 
 They're integral to today's computing infrastructure.
 
 [.topic.source]
 == Work on projects that matter
 
-* There are several such projects.
-* Sponsored by foundations and large companies.
+* Many open source projects are sponsored by foundations and large companies.
 * Contributions associate you with their work and culture.
-* They signal your knowledge about the project.
+* Contributions also signal your knowledge about the problem and its solutions.
 
 image:montage.png[Foundations,700]
 
@@ -69,75 +70,82 @@ image::Who_Writes_Linux_Infographic_Sept_2013.png[]
 [.topic.source]
 == Develop an independently verifiable resume
 
-Independently Verifiable? Why does it matter?
+Contributions are *independently verifiable* and *undisputable* facts.
 
-Facts are *independently verifiable*. They're *undisputed*.
-
-[.topic.source]
-== Develop an independently verifiable resume
-
-* Independently?
-** The *burden of proof* is not always on you.
-** The author of contributions can be discovered by others.
+Why does it matter?
 
 [.topic.source]
 == Develop an independently verifiable resume
 
-* Verifiable?
-** Your contributions are public. They can be examined and verified by others.
-** Contributions are reflected in release notes, list of contributors, mailing list archives, bug trackers, commit logs among others.
+Independently Verifiable
+
+* The *burden of proof* is not always on you.
+* Contributions are public: they can be examined and verified by others.
+* Contributions can be verified in release notes, mailing list archives, bug trackers, commit logs, and more.
+
+[.topic.source]
+== Develop an independently verifiable resume
+
+Undisputable
+
+* Projects guarantee all accredidation is accurate.
+* An accepted contribution has added value to the project.
+* Your code speaks for itself.
 
 == !
 "... a real-world portfolio of work gives you an edge when applying for jobs. Contributing to an open source project provides you with that real-world portfolio ..."
 -- Leslie Hawthorn
 
 [.topic.source]
-== Work with and learn from really Smart People^TM^
+== Work with and learn from Really Smart People^TM^
 
-* Smart people tend to work with other smarter people.
-* An OSS project with smart people begets others.
-* The best thing you could do for yourself is to learn from them.
-
-[.topic.source]
-== Work with and learn from really Smart People^TM^
-
-Learning happens when:
-
-* You discuss new features or bug fixes.
-* You perform code reviews or have your code reviewed.
-* *You are engaged in the project*.
+* Smart people tend to work with other smart people.
+* An OSS project with smart people draws and fosters others.
+* Many of them will be glad to help you learn. Take them up on it.
 
 [.topic.source]
-== Tips on getting started with OSS
+== Work with and learn from really Smart People^TM^
+
+Learning takes many forms:
+
+* Understanding and fixing bugs.
+* Performing code reviews or having your code reviewed.
+* Designing and implementing new features.
+
+If you are *engaged in the project*, you will be learning.
+
+[.topic.source]
+== Getting started with OSS
 
 * Choose a project to contribute to.
 ** Preferably one that you already use.
 * Get very familiar with it.
-** Get involved on mailing lists and IRC.
+** Get involved on mailing lists, IRC, etc.
 ** Discover problem areas. Use the issue tracker.
-** Discuss on resolving issues and adding features.
 ** Learn about the processes. Some projects require contributions in only one form.
-** Submit a patch.
+* Discuss on resolving issues and adding features.
+* Submit a patch.
 
 [.topic.source]
-== Tips on getting started with OSS
+== Getting started with OSS
 
 * Be courteous.
-* Communicate well.
+* Communicate well. Be accurate with technical and project-specific jargon.
 * Learn the political waters. Every project has them.
-* Learn from your mistakes. And correct them.
+* Remember that you will make mistakes. Learn from them!
 
 [.topic.source]
 == A sustained contribution model
 
-* Keep at it.
-* Become a committer. You can do anything now^well not really^
-* Become the most knowledgeable in an subject area.
-* Be open to opportunities.
-** Present at conferences
-** Review books about the project, or even author them yourself.
-** Support related projects that build on yours.
-** Consult for companies part/full-time.
+* Keep at it. Continued contributions build respect.
+* Become a committer. You can do anything now!
+** ...within reason. :)
+* Become very knowledgeable in a subject area. Create demand for you.
+* Be open to new opportunities:
+** Presenting at conferences
+** Reviewing books about the project, or even authoring them yourself.
+** Supporting related projects that build on yours.
+** Consulting for companies part/full-time.
 
 == !
 
@@ -151,14 +159,18 @@ The Gluster Community
 
 
 [.topic.source]
-== Some history first
+== A bit of history
 
-* Started off as an attempt to build supercomupters using commodity hardware
+* Starts as an attempt to build supercomputers using commodity hardware
 * Storage becomes a bigger challenge and focus shifts to GlusterFS
-* GlusterFS gets starts getting noticed and people start using it
-* Better management arrives and adoption of GlusterFS further increases
+* GlusterFS starts getting noticed and people start using it
+
+[.topic.source]
+== A bit of history
+
+* Better management arrives and adoption of GlusterFS increases
 * Red Hat becomes the primary sponsor for the Gluster community
-* Becomes a community for open source, software-defined storage
+* Grows into a community for open source, software-defined storage
 
 
 [.topic.source]
@@ -168,19 +180,19 @@ GlusterFS is
 
 * an open source, distributed, scale-out filesystem
 * fully posix compliant
-* Is user friendly :)
+* user friendly :)
 * easily extensible
 
-and much more.
+...and much more.
 
 
 [.topic.source]
-== Contribute to the GlusterFS project
+== Contributing to the GlusterFS community
 
 * Install and use GlusterFS
 ** http://www.gluster.org/download
 ** http://www.gluster.org/QuickStart
-* Join #gluster on freenode.net
+* Join #gluster IRC channel on freenode.net
 * Subscribe to the gluster-users mailing list
 ** http://www.gluster.org/interact/mailinglists/
 * Interact with other users and give feedback
@@ -188,23 +200,22 @@ and much more.
 ** https://bugzilla.redhat.com/enter_bug.cgi?product=GlusterFS
 
 [.topic.source]
-== Contributing to GlusterFSs development
+== Contributing to the GlusterFS project
 
 * Join #gluster-dev on freenode and the gluster-devel@nongnu.org mailing list
-* Pick some thing you want to work on,
+* Pick something you want to work on:
 ** http://is.gd/glusterfs_new_bugs
 ** http://is.gd/glusterfs_backlog
 ** If you have something not present in the above two places, start a discussion and get it on there
-* *Read* the development workflow document at http://gluster.org/SimplifiedDevWorkflow
-* Follow the development workflow and actually contribute code
+* *Read the development workflow* document at http://gluster.org/SimplifiedDevWorkflow
+* Contribute code!
 
 [.topic.source]
 == Gluster community is more than GlusterFS
 
 * Register on http://forge.gluster.org - the home of Open Source software-defined storage development
 * Contribute to a project of your choice
-* Start your own project and announce it to the community
-* Become a part of the Gluster community
+* ...or start your own project and announce it to the community
 
 [.topic.source]
 == A Small contest
