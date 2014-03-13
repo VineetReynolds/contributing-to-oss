@@ -1,0 +1,84 @@
+= Contributing to Open Source with Red Hat
+Vineet Reynolds ; Kaushal Madappa
+include::attributes.adoc[]
+
+:experimental:
+:toc2:
+:sectanchors:
+:idprefix:
+:idseparator: -
+:icons: font
+:dzslides-transition: fade
+:source-highlighter: coderay
+
+== !
+
+[.statement]
+`Objective` +
+To discover how contributing to OSS helps you, and to learn how to contribute.
+
+[.topic.source]
+== Why should you contribute to OSS ?
+
+* Operate in the real world
+* Work on projects that matter
+* Develop an independently verifiable resume
+* Work with and learn from really Smart People^TM^
+
+[.topic.source]
+== Operate in the real world
+
+[.incremental]
+* Work in a team
+* And ship *deliverables* to users
+* With good tools using some of the best practices
+** *SCM* - Git, SVN, Hg
+** *Build* - Make, Maven, Gradle
+** *CI* - Jenkins, Go, Travis
+** *Issue management* - Bugzilla, JIRA
+** *Review contributions* - Gerrit, GitHub
+** *User documentation* - Asciidoc, Docbook, Publican
+
+[.topic.source]
+== Work on projects that matter
+
+* Good open source projects do not exist for vanity.
+* They solve a particular problem for businesses ...
+* In a really good way.
+
+They're integral to today's computing infrastructure.
+
+[.topic.source]
+== Work on projects that matter
+
+* There are several such projects.
+* Sponsored by foundations and large companies.
+
+[.topic.source]
+== Work on projects that matter
+
+* Contributions associate you with their work and culture.
+* They signal your knowledge about the project.
+
+[.topic.source]
+== Develop an independently verifiable resume
+
+Facts are *independently verifiable*.
+
+* Independently?
+** The *burden of proof* is not always on you.
+** The author of *that nifty feature* can be discovered.
+
+[.topic.source]
+== Develop an independently verifiable resume
+
+* Verifiable?
+** Your contributions are public. They can be directly examined by others.
+** Contributions are reflected in release notes, list of contributors, mailing list archives, bug trackers, commit logs among others.
+
+== !
+"... a real-world portfolio of work gives you an edge when applying for jobs. Contributing to an open source project provides you with that real-world portfolio ..."
+-- Leslie Hawthorn
+
+[.topic.source]
+== Work with and learn from really Smart People^TM^
