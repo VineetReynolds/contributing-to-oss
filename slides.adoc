@@ -8,6 +8,8 @@ include::attributes.adoc[]
 :idprefix:
 :idseparator: -
 :icons: font
+:hidecaption: caption=""
+:hidetitle: title="", caption=""
 :dzslides-transition: fade
 :source-highlighter: coderay
 
@@ -53,12 +55,16 @@ They're integral to today's computing infrastructure.
 
 * There are several such projects.
 * Sponsored by foundations and large companies.
-
-[.topic.source]
-== Work on projects that matter
-
 * Contributions associate you with their work and culture.
 * They signal your knowledge about the project.
+
+image:montage.png[Foundations,700]
+
+== !
+
+[{hidecaption}]
+[.middle.original-image]
+image::Who_Writes_Linux_Infographic_Sept_2013.png[]
 
 [.topic.source]
 == Develop an independently verifiable resume

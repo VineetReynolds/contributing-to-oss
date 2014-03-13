@@ -846,3 +846,9 @@ ol {
 .icon-warning:before { content: "\f071"; }
 .icon-caution:before { content: "\f06d"; }
 .icon-important:before { content:"\f06a"; }
+
+.original-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: initial;
+}
