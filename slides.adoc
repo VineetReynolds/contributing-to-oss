@@ -271,10 +271,10 @@ Learning happens when:
 ** _Support_ related projects that build on yours.
 ** _Consult_ for companies part/full-time.
 
+[.topic.source]
 == Reflect, recalibrate
 
-[.middle]
-image::ohloh-summary.png[]
+image:ohloh-summary.png[]
 
 [NOTE]
 [role="speaker"]
@@ -284,15 +284,15 @@ image::ohloh-summary.png[]
 * Contributions to projects should be measured by "impact" through bug fixes affecting a large populace instead of micro-commits with no tangible value.
 ====
 
+[.topic.source]
 == Reflect, recalibrate
 
-[.middle]
-image::ohloh-timeline.png[]
+image:ohloh-timeline.png[]
 
 [NOTE]
 [role="speaker"]
 ====
-* What you see here is a gap due to a consulting engagement that  arose directly out of OSS contributions.
+* The contributions started nearly two years ago. There is a gap due to a consulting engagement that arose directly out of OSS contributions.
 * Book deals and offers to review books came in rather rapidly (with a year of contributing to Arquillian).
 * Do not get discouraged by projects that are not enlisted. There's several missing ones in this graph.
 * And again don't fret over numbers. The decrease is a result of moving into a 'healthier, more sustainable' lifestyle to avoid burnout.
