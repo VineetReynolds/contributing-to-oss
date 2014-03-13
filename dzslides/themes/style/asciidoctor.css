@@ -852,3 +852,15 @@ ol {
   max-height: 100%;
   width: initial;
 }
+
+.subtle {
+  font-size: 0.4em;
+}
+
+.blocktext {
+  display: block;
+}
+
+.nolist {
+  list-style: none;
+}

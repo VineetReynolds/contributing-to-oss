@@ -1,95 +1,207 @@
-= Contributing to Open Source with Red Hat
+= [subtle blocktext]#Contribute to# _Open Source_ [subtle blocktext]#with# _Red Hat_
 Vineet Reynolds ; Kaushal Madappa
 include::attributes.adoc[]
-
-:experimental:
-:toc2:
-:sectanchors:
-:idprefix:
-:idseparator: -
-:icons: font
-:hidecaption: caption=""
-:hidetitle: title="", caption=""
-:dzslides-transition: fade
-:source-highlighter: coderay
 
 == !
 
 [.statement]
-`Objective` +
+*Objective* +
 To discover how contributing to OSS helps you, and to learn how to contribute.
+
+[NOTE]
+[role="speaker"]
+====
+* This is a talk focussed on illuminatng aspects of open source projects, to an audience not composed of active contributors.
+* It is to help interested individuals get started with open source.
+* You'll eventually learn how contribute to GlusterFS later on in the talk, but the underlying principles are applicable to any project.
+====
 
 [.topic.source]
 == Why should you contribute to OSS ?
 
-* Operate in the real world
-* Work on projects that matter
-* Develop an independently verifiable resume
-* Work with and learn from really Smart People^TM^
+You get to work :
+
+* in the real world
+* on projects that matter
+* building an independently verifiable resume
+* and learn from really Smart People^TM^
+
+[NOTE]
+[role="speaker"]
+====
+Read them out aloud ;-)
+====
 
 [.topic.source]
 == Operate in the real world
 
 [.incremental]
-* You get to work in a team
-* And ship *deliverables* to users
-* Using good tools while employing good practices
+* You get to work in a _team_
+* And ship _deliverables_ to _users_
+* Using good _tools_ while employing good _practices_
 ** *SCM* - Git, SVN, Hg
-** *Build* - Make, Maven, Gradle
+** *Build* - Make, Maven, Gradle, Rake
 ** *CI* - Jenkins, Go, Travis, Teamcity
 ** *Issue management* - Bugzilla, JIRA, Mantis, Trac, Redmine
 ** *Review contributions* - Gerrit, GitHub, Bitbucket
 ** *User documentation* - Asciidoc, Docbook, Publican
 
+[NOTE]
+[role="speaker"]
+====
+* Working individually does not expose you to the challenges faced in real world projects.
+* It results in a lot of self-discovery with little or no reinforcement.
+* You may never converse with users about their problems and the features they need.
+* You may never work in a collaborative manner with other developers.
+* So no one reviews your code constructively, or builds on top of your code to offer more features.
+* You may also avoid using tools and practices that teams in the real world use, putting at a disadvanatage when you continue to work otherwise.
+* SCM allows multiple developers to work on the same code base without using manual backup techniques (copy of project, copy2 of project etc. etc.) :D
+* Build tools allow you to build your project in an automated manner. How many of you have several page manuals describing how to download and compile your projects? We automate these in the real world.
+* CI server extend your build scripts to perform builds at regular intervals. Companies like Google and Amazon use CI to allow them to publish deployments at dizzying rate. In a duration of 10 minutes, a deployment would have occured somewhere in the company. How quickly can you deploy your project?
+* Do you use text files or excel sheets to track issues? Well, no one does that in the real world, unless they're poorly informed.
+* What about code submissions from others? Do you review them at all? And do you track review comments for posterity to track reasons for change?
+* And have you ever considered publishing documentation. Be it library API guides for developers, or user guides for end-users?
+* You get use all of these in well-run open source projects, saving you time because you do not have to independently discover this yourself.
+====
+
+
 [.topic.source]
 == Work on projects that matter
 
 * Good open source projects do not exist for vanity.
-* They solve a particular problem for businesses ...
-* In a really good way.
+* They solve a particular _problem_ for _businesses_ ...
+* In a real _good way_.
 
 They're integral to today's computing infrastructure.
+
+[NOTE]
+[role="speaker"]
+====
+* What happens when a business has a problem that requires a solution in software?
+* Buy a COTS solution. Or get some to write it.
+* COTS can be expensive. Starups generally dont like to fork out money for mundae stuff like OSes, databases, application servers, frameworks and libraries.
+* There's no significant advantage to be gained in writing these from scratch either.
+* So, re-use software built by others that happen to do a good job for your business.
+* Working on a OSS project that solves a business need is no different from working on a similar proprietary solution.
+====
 
 [.topic.source]
 == Work on projects that matter
 
-* There are several such projects.
-* Sponsored by foundations and large companies.
-* Contributions associate you with their work and culture.
-* They signal your knowledge about the project.
+* There are several OSS projects numbering in thousands.
+* Sponsored by _foundations_ and large _companies_.
+* Contributions associate you with their _work_ and _culture_.
+* They signal your _knowledge_ about the project.
 
 image:montage.png[Foundations,700]
 
-== !
-
-[{hidecaption}]
-[.middle.original-image]
-image::Who_Writes_Linux_Infographic_Sept_2013.png[]
+[NOTE]
+[role="speaker"]
+====
+* When a company goes about hiring someone for a particular role, they like to choose the person most knowledgeable in their domain. Quite obvious isn't it?
+* When they use an OSS project, contributors stand to be the first to benefit, since they're most qualified.
+====
 
 [.topic.source]
-== Develop an independently verifiable resume
+== Some stats on the Linux Kernel
+[subtle]#From the Annual Linux Development Report 2013#
 
-Independently Verifiable? Why does it matter?
+[.incremental]
+* Nearly _10,000_ developers from more than _1,000 companies_
+* Contributions from _1,100 developers_ from _225 companies_ in 2012
+* with growing numbers from _mobile_ and _embedded industries_.
+
+[NOTE]
+[role="speaker"]
+====
+* Need proof of companies investing in open source? Look no further.
+* Work done by contributors here find their way into the mainstream.
+* Servers in datacenters, laptops, workstations and Android devices all benefit from these contributions.
+====
+
+
+[.topic.source]
+== Some stats on the Linux Kernel
+[subtle]#Top 10 organizations sponsoring development, from the Annual Linux Development Report 2013#
+
+[.incremental.scatter.nolist]
+* _Red Hat_
+* _Intel_
+* _Texas Instruments_
+* _Linaro_
+* _SUSE_
+* _IBM_
+* _Samsung_
+* _Google_
+* _Vision Engraving Systems Consultants_
+* _Wolfson Microelectronics_
+
+[NOTE]
+[role="speaker"]
+====
+* And these are not done by small-timers.
+* The companies that happen to employ people to contribute to Linux have a vested stake in ensuring the success of their products and services.
+* Some want to ensure that their software runs on all Linux distributions, others want Linux to run on their hardware.
+====
+
+
+[.topic.source]
+== Build an independently verifiable resume
+
+Independently verifiable? Why does it matter?
 
 Facts are *independently verifiable*. They're *undisputed*.
 
+[NOTE]
+[role="speaker"]
+====
+* Speaking of career development, OSS contributions lend to a trustworthy resume.
+* Why should hiring managers trust OSS contributors more?
+====
+
 [.topic.source]
-== Develop an independently verifiable resume
+== Build an independently verifiable resume
 
 * Independently?
-** The *burden of proof* is not always on you.
-** The author of contributions can be discovered by others.
+** The _burden of proof_ is not always on you.
+** Authors of contributions can be _discovered_ by others.
+
+[NOTE]
+[role="speaker"]
+====
+* Hiring managers are no longer reliant on word-of-mouth references from previous employers. They can look up contributions at their own discretion, not requiring the services of a gatekeeper.
+====
 
 [.topic.source]
-== Develop an independently verifiable resume
+== Build an independently verifiable resume
 
 * Verifiable?
-** Your contributions are public. They can be examined and verified by others.
-** Contributions are reflected in release notes, list of contributors, mailing list archives, bug trackers, commit logs among others.
+** Your contributions are _public_. They can be examined and verified by others.
+** Contributions are _reflected and archived for posterity_ in release notes, list of contributors, mailing list archives, bug trackers, commit logs among others.
+
+[NOTE]
+[role="speaker"]
+====
+* Hiring managers can now verify the same data that they independently accessed.
+====
 
 == !
 "... a real-world portfolio of work gives you an edge when applying for jobs. Contributing to an open source project provides you with that real-world portfolio ..."
 -- Leslie Hawthorn
+
+[.topic.source]
+== An example
+
+[.middle]
+image::stackoverflow-resume.png[]
+
+[NOTE]
+[role="speaker"]
+====
+* Career portals now allow you to post open source projects that you've contributed to.
+* Needless to say, it makes sense to post those that have had an impact.
+* Be prepared to justify the importance of these projects to hiring managers who may not understand the community using them ;-)
+====
 
 [.topic.source]
 == Work with and learn from really Smart People^TM^
@@ -97,6 +209,15 @@ Facts are *independently verifiable*. They're *undisputed*.
 * Smart people tend to work with other smarter people.
 * An OSS project with smart people begets others.
 * The best thing you could do for yourself is to learn from them.
+* Very high quality of discussion. No bike-shedding.
+
+[NOTE]
+[role="speaker"]
+====
+* If there's one thing about smart people, it is that they spend time on working on 
+* They try not to suffer the consequences of Parkinson's law of triviality.
+* So, they try not to discuss how to color the bike shed, and instead debate on how to construct a nuclear reactor.
+====
 
 [.topic.source]
 == Work with and learn from really Smart People^TM^
@@ -105,14 +226,25 @@ Learning happens when:
 
 * You discuss new features or bug fixes.
 * You perform code reviews or have your code reviewed.
+* You deliberate over ideas.
 * *You are engaged in the project*.
+
+[NOTE]
+[role="speaker"]
+====
+* Working with smart people does not people that you are casually employed with them.
+* You need to ensure that ideas, features and bug fixes, are reviewed by them.
+* Understand their way of doing things. They are very rational beings and often have reasons to do things in a particular manner.
+* Doing this over a course of time increases your engagement with the project.
+* Engaging work increases cognitive function. This is a physiological behavior associated with dopamine. Working on stuff you like sometimes actually makes you smarter.
+====
 
 [.topic.source]
 == Tips on getting started with OSS
 
-* Choose a project to contribute to.
+* _Choose a project_ to contribute to.
 ** Preferably one that you already use.
-* Get very familiar with it.
+* Get _very familiar_ with it.
 ** Get involved on mailing lists and IRC.
 ** Discover problem areas. Use the issue tracker.
 ** Discuss on resolving issues and adding features.
@@ -122,22 +254,49 @@ Learning happens when:
 [.topic.source]
 == Tips on getting started with OSS
 
-* Be courteous.
-* Communicate well.
-* Learn the political waters. Every project has them.
-* Learn from your mistakes. And correct them.
+* Be _courteous_.
+* _Communicate_ well.
+* Learn the _political_ waters. Every project has them.
+* Learn from your _mistakes_. And _correct_ them.
 
 [.topic.source]
 == A sustained contribution model
 
-* Keep at it.
-* Become a committer. You can do anything now^well not really^
-* Become the most knowledgeable in an subject area.
-* Be open to opportunities.
-** Present at conferences
-** Review books about the project, or even author them yourself.
-** Support related projects that build on yours.
-** Consult for companies part/full-time.
+* Be _persistent_.
+* Become a _committer_. You can do anything^well not really^
+* Become the _expert_ in an subject area.
+* Be open to _opportunities_.
+** Present at _conferences_
+** Review _books_ about the project, or even author them yourself.
+** _Support_ related projects that build on yours.
+** _Consult_ for companies part/full-time.
+
+== Reflect, recalibrate
+
+[.middle]
+image::ohloh-summary.png[]
+
+[NOTE]
+[role="speaker"]
+====
+* Sustained contributions would see your credibility rise in the community.
+* Do not be place emphasis on the number of commits and other 'gameable' figures.
+* Contributions to projects should be measured by "impact" through bug fixes affecting a large populace instead of micro-commits with no tangible value.
+====
+
+== Reflect, recalibrate
+
+[.middle]
+image::ohloh-timeline.png[]
+
+[NOTE]
+[role="speaker"]
+====
+* What you see here is a gap due to a consulting engagement that  arose directly out of OSS contributions.
+* Book deals and offers to review books came in rather rapidly (with a year of contributing to Arquillian).
+* Do not get discouraged by projects that are not enlisted. There's several missing ones in this graph.
+* And again don't fret over numbers. The decrease is a result of moving into a 'healthier, more sustainable' lifestyle to avoid burnout.
+====
 
 == !
 
