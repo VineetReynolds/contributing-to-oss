@@ -1,46 +1,38 @@
-= [subtle blocktext]#Contribute to# _Open Source_ [subtle blocktext]#with# _Red Hat_
+= [subtle blocktext]#Contribute to# _Open Source Software_ [subtle blocktext]#with# _Red Hat_
 Vineet Reynolds ; Kaushal Madappa
 include::attributes.adoc[]
 
 == !
 
 [.statement]
-*Objective* +
-To discover how contributing to OSS helps you, and to learn how to contribute.
+*Objectives* +
+Learn how contributing to Open Source Software (OSS) helps you, and how to contribute.
 
 [NOTE]
 [role="speaker"]
 ====
 * This is a talk focussed on illuminatng aspects of open source projects, to an audience not composed of active contributors.
-* It is to help interested individuals get started with open source.
+* It is to help interested individuals get started with contributing to open source.
 * You'll eventually learn how contribute to GlusterFS later on in the talk, but the underlying principles are applicable to any project.
 ====
 
 [.topic.source]
-== Why should you contribute to OSS ?
+== Why should you contribute to OSS?
 
-You get to work :
-
-* in the real world
-* on projects that matter
-* building an independently verifiable resume
-* and learn from really Smart People^TM^
-
-[NOTE]
-[role="speaker"]
-====
-Read them out aloud ;-)
-====
+* OSS development == Real world development
+* Work on projects that matter
+* Build an independently verifiable resume
+* Work with and learn from Really Smart People^TM^
 
 [.topic.source]
-== Operate in the real world
+== Real world development
 
 [.incremental]
-* You get to work in a _team_
-* And ship _deliverables_ to _users_
-* Using good _tools_ while employing good _practices_
+* Collaborative, _team_-based work
+* Produce _deliverables_ for end-users
+* Develop good _practices_ on using good _tools_:
 ** *SCM* - Git, SVN, Hg
-** *Build* - Make, Maven, Gradle, Rake
+** *Build* - make, Maven, Gradle, Rake
 ** *CI* - Jenkins, Go, Travis, Teamcity
 ** *Issue management* - Bugzilla, JIRA, Mantis, Trac, Redmine
 ** *Review contributions* - Gerrit, GitHub, Bitbucket
@@ -68,9 +60,11 @@ Read them out aloud ;-)
 [.topic.source]
 == Work on projects that matter
 
-* Good open source projects do not exist for vanity.
-* They solve a particular _problem_ for _businesses_ ...
-* In a real _good way_.
+Good open source projects:
+
+* Do not exist for vanity
+* Target a particular _problem_ or set of related problems
+* Provide solutions for _businesses_ and _individuals_
 
 They're integral to today's computing infrastructure.
 
@@ -88,10 +82,9 @@ They're integral to today's computing infrastructure.
 [.topic.source]
 == Work on projects that matter
 
-* There are several OSS projects numbering in thousands.
-* Sponsored by _foundations_ and large _companies_.
+* Many open source projects are sponsored by _foundations_ and large _companies_.
 * Contributions associate you with their _work_ and _culture_.
-* They signal your _knowledge_ about the project.
+* Contributions also _signal_ your knowledge about the _problem_ and its _solutions_.
 
 image:montage.png[Foundations,700]
 
@@ -148,9 +141,9 @@ image:montage.png[Foundations,700]
 [.topic.source]
 == Build an independently verifiable resume
 
-Independently verifiable? Why does it matter?
+Contributions are *independently verifiable* and *undisputable* facts.
 
-Facts are *independently verifiable*. They're *undisputed*.
+Why does it matter?
 
 [NOTE]
 [role="speaker"]
@@ -162,27 +155,33 @@ Facts are *independently verifiable*. They're *undisputed*.
 [.topic.source]
 == Build an independently verifiable resume
 
-* Independently?
-** The _burden of proof_ is not always on you.
-** Authors of contributions can be _discovered_ by others.
+Independently Verifiable
+
+* The _burden of proof_ is not always on you.
+* Contributions are _public_: they can be examined and verified by others.
+* Contributions can be _verified_ in release notes, mailing list archives, bug trackers, commit logs, and more.
 
 [NOTE]
 [role="speaker"]
 ====
 * Hiring managers are no longer reliant on word-of-mouth references from previous employers. They can look up contributions at their own discretion, not requiring the services of a gatekeeper.
+* Hiring managers can now verify the same data that they independently accessed.
 ====
 
 [.topic.source]
 == Build an independently verifiable resume
 
-* Verifiable?
-** Your contributions are _public_. They can be examined and verified by others.
-** Contributions are _reflected and archived for posterity_ in release notes, list of contributors, mailing list archives, bug trackers, commit logs among others.
+Undisputable
+
+* Projects guarantee all accredidation is accurate.
+* An accepted contribution has added value to the project.
+* Your code speaks for itself.
 
 [NOTE]
 [role="speaker"]
 ====
-* Hiring managers can now verify the same data that they independently accessed.
+* All activity on projects is archived for posterity and left untouched.
+* While you may not get references from project leads and committers, it is not impossible.
 ====
 
 == !
@@ -204,11 +203,11 @@ image::stackoverflow-resume.png[]
 ====
 
 [.topic.source]
-== Work with and learn from really Smart People^TM^
+== Work with and learn from Really Smart People^TM^
 
-* Smart people tend to work with other smarter people.
-* An OSS project with smart people begets others.
-* The best thing you could do for yourself is to learn from them.
+* Smart people tend to work with other smart people.
+* An OSS project with smart people draws and fosters others.
+* Many of them will be glad to help you learn. Take them up on it.
 * Very high quality of discussion. No bike-shedding.
 
 [NOTE]
@@ -222,12 +221,14 @@ image::stackoverflow-resume.png[]
 [.topic.source]
 == Work with and learn from really Smart People^TM^
 
-Learning happens when:
+Learning takes many forms:
 
-* You discuss new features or bug fixes.
-* You perform code reviews or have your code reviewed.
-* You deliberate over ideas.
-* *You are engaged in the project*.
+* Understanding and fixing bugs.
+* Performing code reviews or having your code reviewed.
+* Deliberation over ideas.
+* Designing and implementing new features.
+
+If you are _engaged in the project_, you will be _learning_.
 
 [NOTE]
 [role="speaker"]
@@ -240,36 +241,37 @@ Learning happens when:
 ====
 
 [.topic.source]
-== Tips on getting started with OSS
+== Getting started with OSS
 
 * _Choose a project_ to contribute to.
 ** Preferably one that you already use.
-* Get _very familiar_ with it.
-** Get involved on mailing lists and IRC.
+* _Become very familiar_ with it.
+** Get involved on mailing lists, IRC, etc.
 ** Discover problem areas. Use the issue tracker.
-** Discuss on resolving issues and adding features.
 ** Learn about the processes. Some projects require contributions in only one form.
-** Submit a patch.
+* _Discuss_ on resolving issues and adding features.
+* _Submit_ a patch.
 
 [.topic.source]
-== Tips on getting started with OSS
+== Getting started with OSS
 
 * Be _courteous_.
-* _Communicate_ well.
+* _Communicate_ well. Be accurate with technical and project-specific jargon.
 * Learn the _political_ waters. Every project has them.
-* Learn from your _mistakes_. And _correct_ them.
+* Remember that you will make _mistakes_. Learn from them!
 
 [.topic.source]
 == A sustained contribution model
 
-* Be _persistent_.
-* Become a _committer_. You can do anything^well not really^
-* Become the _expert_ in an subject area.
-* Be open to _opportunities_.
-** Present at _conferences_
-** Review _books_ about the project, or even author them yourself.
-** _Support_ related projects that build on yours.
-** _Consult_ for companies part/full-time.
+* Be _persistent_. Continued contributions build respect.
+* Become a committer. You can do anything now!
+** ...within reason. :)
+* Become very _knowledgeable_ in an subject area. Create demand for you.
+* Be open to new _opportunities_:
+** _Presenting_ at conferences
+** _Reviewing_ books about the project, or even _authoring_ them.
+** _Supporting_ related projects that build on yours.
+** _Consulting_ for companies part/full-time.
 
 [.topic.source]
 == Reflect, recalibrate
@@ -310,14 +312,18 @@ The Gluster Community
 
 
 [.topic.source]
-== Some history first
+== A bit of history
 
-* Started off as an attempt to build supercomupters using commodity hardware
+* Starts as an attempt to build supercomputers using commodity hardware
 * Storage becomes a bigger challenge and focus shifts to GlusterFS
-* GlusterFS gets starts getting noticed and people start using it
-* Better management arrives and adoption of GlusterFS further increases
+* GlusterFS starts getting noticed and people start using it
+
+[.topic.source]
+== A bit of history
+
+* Better management arrives and adoption of GlusterFS increases
 * Red Hat becomes the primary sponsor for the Gluster community
-* Becomes a community for open source, software-defined storage
+* Grows into a community for open source, software-defined storage
 
 
 [.topic.source]
@@ -327,19 +333,19 @@ GlusterFS is
 
 * an open source, distributed, scale-out filesystem
 * fully posix compliant
-* Is user friendly :)
+* user friendly :)
 * easily extensible
 
-and much more.
+...and much more.
 
 
 [.topic.source]
-== Contribute to the GlusterFS project
+== Contributing to the GlusterFS community
 
 * Install and use GlusterFS
 ** http://www.gluster.org/download
 ** http://www.gluster.org/QuickStart
-* Join #gluster on freenode.net
+* Join #gluster IRC channel on freenode.net
 * Subscribe to the gluster-users mailing list
 ** http://www.gluster.org/interact/mailinglists/
 * Interact with other users and give feedback
@@ -347,23 +353,22 @@ and much more.
 ** https://bugzilla.redhat.com/enter_bug.cgi?product=GlusterFS
 
 [.topic.source]
-== Contributing to GlusterFSs development
+== Contributing to the GlusterFS project
 
 * Join #gluster-dev on freenode and the gluster-devel@nongnu.org mailing list
-* Pick some thing you want to work on,
+* Pick something you want to work on:
 ** http://is.gd/glusterfs_new_bugs
 ** http://is.gd/glusterfs_backlog
 ** If you have something not present in the above two places, start a discussion and get it on there
-* *Read* the development workflow document at http://gluster.org/SimplifiedDevWorkflow
-* Follow the development workflow and actually contribute code
+* *Read the development workflow* document at http://gluster.org/SimplifiedDevWorkflow
+* Contribute code!
 
 [.topic.source]
 == Gluster community is more than GlusterFS
 
 * Register on http://forge.gluster.org - the home of Open Source software-defined storage development
 * Contribute to a project of your choice
-* Start your own project and announce it to the community
-* Become a part of the Gluster community
+* ...or start your own project and announce it to the community
 
 [.topic.source]
 == A Small contest
