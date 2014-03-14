@@ -76,13 +76,13 @@ They're integral to today's computing infrastructure.
 * COTS can be expensive. Starups generally dont like to fork out money for mundae stuff like OSes, databases, application servers, frameworks and libraries.
 * There's no significant advantage to be gained in writing these from scratch either.
 * So, re-use software built by others that happen to do a good job for your business.
-* Working on a OSS project that solves a business need is no different from working on a similar proprietary solution.
+* Working on a OSS project that solves a business need is no different from working on a similar proprietary solution. Their objectives are the same.
 ====
 
 [.topic.source]
 == Work on projects that matter
 
-* Many open source projects are sponsored by _foundations_ and large _companies_.
+* Many open source projects are _sponsored_ by _foundations_ and large _companies_.
 * Contributions associate you with their _work_ and _culture_.
 * Contributions also _signal_ your knowledge about the _problem_ and its _solutions_.
 
@@ -91,6 +91,8 @@ image:montage.png[Foundations,700]
 [NOTE]
 [role="speaker"]
 ====
+* Open source has a viable business model because of the concept of professional open-source.
+* Companies pay individuals to build capabilities or maintain open-source software that they use.
 * When a company goes about hiring someone for a particular role, they like to choose the person most knowledgeable in their domain. Quite obvious isn't it?
 * When they use an OSS project, contributors stand to be the first to benefit, since they're most qualified.
 ====
@@ -134,7 +136,7 @@ image:montage.png[Foundations,700]
 ====
 * And these are not done by small-timers.
 * The companies that happen to employ people to contribute to Linux have a vested stake in ensuring the success of their products and services.
-* Some want to ensure that their software runs on all Linux distributions, others want Linux to run on their hardware.
+* Some want to ensure that their software runs on all Linux distributions, others want Linux to run on their hardware, while others want to offer Linux as a platform for businesses to operate on.
 ====
 
 
@@ -164,7 +166,9 @@ Independently Verifiable
 [NOTE]
 [role="speaker"]
 ====
-* Hiring managers are no longer reliant on word-of-mouth references from previous employers. They can look up contributions at their own discretion, not requiring the services of a gatekeeper.
+* Your professors would vouch for your today, but not for ever. Recent references carry a lot of weight. You'd eventually depend on references provided by your employers.
+* Proof of involvement is not merely filed away somewhere and locked up in the attic.
+* Hiring managers need not rely on word-of-mouth references from previous employers alone. They can look up contributions at their own discretion, not requiring the services of a gatekeeper.
 * Hiring managers can now verify the same data that they independently accessed.
 ====
 
@@ -180,8 +184,9 @@ Undisputable
 [NOTE]
 [role="speaker"]
 ====
-* All activity on projects is archived for posterity and left untouched.
-* While you may not get references from project leads and committers, it is not impossible.
+* Projects do bookkeeping activities, and most of them are automated.
+* If your contribution has been accepted to a project, you can claim so in your resume. You don't need to wait for a certificate.
+* You may not get references from project leads and committers always, but it is not impossible.
 ====
 
 == !
@@ -199,7 +204,7 @@ image::stackoverflow-resume.png[]
 ====
 * Career portals now allow you to post open source projects that you've contributed to.
 * Needless to say, it makes sense to post those that have had an impact.
-* Be prepared to justify the importance of these projects to hiring managers who may not understand the community using them ;-)
+* Be prepared to justify the importance of these projects to hiring managers who may not understand the community of users ;-)
 ====
 
 [.topic.source]
@@ -213,7 +218,7 @@ image::stackoverflow-resume.png[]
 [NOTE]
 [role="speaker"]
 ====
-* If there's one thing about smart people, it is that they spend time on working on 
+* If there's one thing about smart people, it is that they spend time on working on non-trivial and complex stuff.
 * They try not to suffer the consequences of Parkinson's law of triviality.
 * So, they try not to discuss how to color the bike shed, and instead debate on how to construct a nuclear reactor.
 ====
@@ -233,7 +238,7 @@ If you are _engaged in the project_, you will be _learning_.
 [NOTE]
 [role="speaker"]
 ====
-* Working with smart people does not people that you are casually employed with them.
+* Working with smart people does not mean that you are casually employed with them. You need to engage with them everyday if possible.
 * You need to ensure that ideas, features and bug fixes, are reviewed by them.
 * Understand their way of doing things. They are very rational beings and often have reasons to do things in a particular manner.
 * Doing this over a course of time increases your engagement with the project.
@@ -264,8 +269,8 @@ If you are _engaged in the project_, you will be _learning_.
 == A sustained contribution model
 
 * Be _persistent_. Continued contributions build respect.
-* Become a committer. You can do anything now!
-** ...within reason. :)
+* Become a committer. You can do anything now !
+** ...within reason :)
 * Become very _knowledgeable_ in an subject area. Create demand for you.
 * Be open to new _opportunities_:
 ** _Presenting_ at conferences
@@ -294,9 +299,11 @@ image:ohloh-timeline.png[]
 [NOTE]
 [role="speaker"]
 ====
-* The contributions started nearly two years ago. There is a gap due to a consulting engagement that arose directly out of OSS contributions.
+* My contributions started nearly two years ago. Life was better immediately (more or less).
+* There is a gap due to a consulting engagement that arose directly out of OSS contributions- ~ 6 months after the first commit to Arquillian.
 * Book deals and offers to review books came in rather rapidly (with a year of contributing to Arquillian).
 * Do not get discouraged by projects that are not enlisted. There's several missing ones in this graph.
+* Focus on a select group of projects to maximize impact. You don't want to be a casual contributor to be forgotten very easily.
 * And again don't fret over numbers. The decrease is a result of moving into a 'healthier, more sustainable' lifestyle to avoid burnout.
 ====
 
