@@ -317,6 +317,14 @@ The Gluster Community
 "To create the world's largest and most dynamic community for open software-defined storage"
 -- The Gluster Community Goal
 
+[NOTE]
+[role="speaker"]
+====
+* Software defined storage is a buzzword IMO.
+* You may have heard of IAAS, SAAS, PAAS etc. SDS is a part of ITAAS.
+* It means that storage is delivered as a service
+* Gluster wants to become the one stop shop for anything related to software related to storage as a service.
+====
 
 [.topic.source]
 == A bit of history
@@ -325,6 +333,18 @@ The Gluster Community
 * Storage becomes a bigger challenge and focus shifts to GlusterFS
 * GlusterFS starts getting noticed and people start using it
 
+[NOTE]
+[role="speaker"]
+====
+* Create software that would aggregate the performance of many small, off-the-shelf computers and present it as a single supercomputer.
+* GlusterFS was started as a part of this larger project.
+* Creating a reliable and robust distributed filesystem was much larger of a challenge than expected.
+** Availability, performance, correctness, etc.
+* A standalone version of GlusterFS was released.
+** Maybe v2
+* Users like that GlusterFS is simple setup and use.
+====
+
 [.topic.source]
 == A bit of history
 
@@ -332,19 +352,43 @@ The Gluster Community
 * Red Hat becomes the primary sponsor for the Gluster community
 * Grows into a community for open source, software-defined storage
 
+[NOTE]
+[role="speaker"]
+====
+* Users still had to write configuration manually.
+* With the new distributed management framework (Glusterd), users only need to execute a few commands to get GlusterFS cluster running.
+* Gluster Inc was the primary sponsor till this time. Red Hat acquired Gluster Inc. in October 2011.
+* Red Hat launches a commercially supported version of GlusterFS called Red Hat Storage.
+* Interest in GlusterFS grew. There were more and more requests for collaboration with other projects.
+* So the community decided to change from being a single project community, to a multi-project one and become the premier community for open software defined storage.
+====
 
 [.topic.source]
 == So what is GlusterFS?
 
 GlusterFS is
 
-* an open source, distributed, scale-out filesystem
+* an open source, distributed, clustered, parallel, scale-out ... filesystem
+* runs on commodity hardware
 * fully posix compliant
 * user friendly :)
 * easily extensible
+* much more
 
-...and much more.
-
+[NOTE]
+[role="speaker"]
+====
+* These are all the common adjectives used when describing GlusterFS.
+* Scale out vs Scale up - More cheaper and smaller machines vs A single big powerful machine
+* You don't need specialized machines to run GlusterFS. Any normal computer would do.
+* You don't need to rewrite applications to get them to use GlusterFS.
+* The gluster management framework makes it very easy to setup and deploy a GlusterFS filesystem.
+* GlusterFS has a modular architechture. The filesystem is made up of independent parts, each of which provides a single feature, which can be combined together to get the filesystem you want.
+* If you want a feature, you just write a translator.
+* There is not tie-in. GlusterFS doesn't use any custom storage mechanisms. It lives on top of the underlying filesystem in your machine.
+* Your data is always available to you if you want to move away from GlusterFS.
+* Geo-replication, multiprotocol access, libgfapi etc.
+====
 
 [.topic.source]
 == Contributing to the GlusterFS community
@@ -359,6 +403,18 @@ GlusterFS is
 * File bugs
 ** https://bugzilla.redhat.com/enter_bug.cgi?product=GlusterFS
 
+[NOTE]
+[role="speaker"]
+====
+* Vineet mentioned earlier, it is preferable to chose a project which you use.
+* It is essential that you understand a project, before you contribute to it.
+* Because only when you understand it will you be able to contribute to its betterment.
+* The best way to understand is to use it.
+* Interact with other users. Ask questions. Get Answers. Answer someone elses questions.
+* Give feedback not just on the software, but also on documentation, processes and the community as well
+* Also remember to file bugs when you have problem. This will ensure your problem doesn't go unnoticed.
+====
+
 [.topic.source]
 == Contributing to the GlusterFS project
 
@@ -366,9 +422,25 @@ GlusterFS is
 * Pick something you want to work on:
 ** http://is.gd/glusterfs_new_bugs
 ** http://is.gd/glusterfs_backlog
-** If you have something not present in the above two places, start a discussion and get it on there
+** If you want to do something not present in the above two places, start a discussion and get it on there
 * *Read the development workflow* document at http://gluster.org/SimplifiedDevWorkflow
 * Contribute code!
+
+[NOTE]
+[role="speaker"]
+====
+* All the technical discussions on gluster happen here.
+* Even if you don't take an active part in the discussions in there you will learn a lot from just listening in.
+* glusterfs_new_bugs links to a bugzilla page with all GlusterFS bugs that haven't been given attention.
+* We have a pretty significant bug backlog. It needs cleaning and is something the community is working on.
+* glusterfs_backlog links to list of things we want to do for GlusterFS. It contains mainly a curated list of features and bugs that want to be addressed.
+* The bug backlist is sure to have something small with which you could start.
+* You will have new ideas when you have used the software.
+* It is important that you go read and at least make an effort to understand the development workflow before you do you actual coding.
+* This will clear most of you doubts on the processes we follow for the GlusterFS project.
+* If you have doubts, get them cleared using the communication channels mentioned above.
+* Finally, contribute code.
+====
 
 [.topic.source]
 == Gluster community is more than GlusterFS
@@ -377,8 +449,21 @@ GlusterFS is
 * Contribute to a project of your choice
 * ...or start your own project and announce it to the community
 
+[NOTE]
+[role="speaker"]
+====
+* But the Gluster community is not just GlusterFS. It has multiple open source projects all centered around the central theme of storage.
+* And GlusterForge is where development on all these projects happen.
+* Project on the forge include
+** newer features for GlusterFS like compression, erasure coding etc.
+** multiple integration efforts with other projects, ovirt for example
+** tools to further ease glusterfs deployment
+** monitoring tools
+** language bindings for libgfapi
+====
+
 [.topic.source]
-== A Small contest
+== A Contest
 
 Kickstart your contributions with this small contest
 
@@ -386,6 +471,15 @@ Kickstart your contributions with this small contest
 * Fix it and submit the fix
 * Show the submission at the Red Hat booth
 * Win goodies!!
+
+[NOTE]
+[role="speaker"]
+====
+* The intention here is to get you guys to install GlusterFS.
+* The actual intention is to get you familiarized with the GlusterFS contribution process.
+* We will be available to help you with any problems you may hit.
+* But don't just stop at this. Continue with your contributions and become a part of the Gluster community.
+====
 
 [.topic.source]
 == Credits
