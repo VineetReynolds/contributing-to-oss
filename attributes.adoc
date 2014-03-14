@@ -1,5 +1,4 @@
 :sectids!:
-:experimental:
 :icons: font
 :imagesdir: images
 :source-highlighter: highlightjs

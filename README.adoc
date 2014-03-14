@@ -13,6 +13,8 @@ gem install asciidoctor tilt slim
 
 == Initial setup
 
+This should done only if you want to prepare a new deck.
+
 Clone the asciidoctor-backends and custom dzslides repos:
 
 ----
