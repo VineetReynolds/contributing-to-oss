@@ -474,10 +474,12 @@ Kickstart your contributions with this small contest
 
 [NOTE]
 [role="speaker"]
+====
 * The intention here is to get you guys to install GlusterFS.
 * The actual intention is to get you familiarized with the GlusterFS contribution process.
 * We will be available to help you with any problems you may hit.
 * But don't just stop at this. Continue with your contributions and become a part of the Gluster community.
+====
 
 [.topic.source]
 == Credits
