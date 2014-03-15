@@ -29,7 +29,7 @@ Learn how contributing to Open Source Software (OSS) helps you, and how to contr
 
 [.incremental]
 * Collaborative, _team_-based work
-* Produce _deliverables_ for end-users
+* Produce _deliverables_ for _end-users_
 * Develop good _practices_ on using good _tools_:
 ** *SCM* - Git, SVN, Hg
 ** *Build* - make, Maven, Gradle, Rake
