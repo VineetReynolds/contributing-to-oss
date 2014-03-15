@@ -304,6 +304,7 @@ image:ohloh-timeline.png[]
 * Book deals and offers to review books came in rather rapidly (with a year of contributing to Arquillian).
 * Do not get discouraged by projects that are not enlisted. There's several missing ones in this graph.
 * Focus on a select group of projects to maximize impact. You don't want to be a casual contributor to be forgotten very easily.
+* In the context of GlusterFS, you'll find related projects like Samba, NFS, OpenStack and OVirt.
 * And again don't fret over numbers. The decrease is a result of moving into a 'healthier, more sustainable' lifestyle to avoid burnout.
 ====
 
