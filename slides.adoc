@@ -425,7 +425,7 @@ GlusterFS is
 ** http://is.gd/glusterfs_new_bugs
 ** http://is.gd/glusterfs_backlog
 ** If you want to do something not present in the above two places, start a discussion and get it on there
-* *Read the development workflow* document at http://gluster.org/SimplifiedDevWorkflow
+* *Read the development workflow* document at http://gluster.org/simpledevworkflow
 * Contribute code!
 
 [NOTE]
