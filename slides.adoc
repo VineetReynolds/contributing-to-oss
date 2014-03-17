@@ -1,5 +1,6 @@
 = [subtle blocktext]#Contribute to# _Open Source Software_ [subtle blocktext]#with# _Red Hat_
 Vineet Reynolds ; Kaushal Madappa
+:license: CC BY-SA 4.0
 include::attributes.adoc[]
 
 == !
