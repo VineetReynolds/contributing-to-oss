@@ -1,28 +1,27 @@
-= [subtle blocktext]#Contribute to# _Open Source Software_ [subtle blocktext]#with# _Red Hat_
-Vineet Reynolds ; Kaushal Madappa
+= [subtle blocktext]#Contribute to# _Open Source Software_
+Vineet Reynolds ; JBoss evangelist; Red Hat
 :license: CC BY-SA 4.0
 include::attributes.adoc[]
 
 == !
 
 [.statement]
-*Objectives* +
+*Agenda* +
 Learn how contributing to Open Source Software (OSS) helps you, and how to contribute.
 
 [NOTE]
 [role="speaker"]
 ====
 * This is a talk focussed on illuminatng aspects of open source projects, to an audience not composed of active contributors.
-* It is to help interested individuals get started with contributing to open source.
-* You'll eventually learn how contribute to GlusterFS later on in the talk, but the underlying principles are applicable to any project.
+* It is to help interested individuals and companies get started with contributing to open source.
 ====
 
 [.topic.source]
 == Why should you contribute to OSS?
 
 * OSS development == Real world development
-* Work on projects that matter
-* Build an independently verifiable resume
+* Work on projects that matter to businesses
+* Develop deep technical expertise in technology stacks
 * Work with and learn from Really Smart People^TM^
 
 [.topic.source]
@@ -31,13 +30,7 @@ Learn how contributing to Open Source Software (OSS) helps you, and how to contr
 [.incremental]
 * Collaborative, _team_-based work
 * Produce _deliverables_ for _end-users_
-* Develop good _practices_ on using good _tools_:
-** *SCM* - Git, SVN, Hg
-** *Build* - make, Maven, Gradle, Rake
-** *CI* - Jenkins, Go, Travis, Teamcity
-** *Issue management* - Bugzilla, JIRA, Mantis, Trac, Redmine
-** *Review contributions* - Gerrit, GitHub, Bitbucket
-** *User documentation* - Asciidoc, Docbook, Publican
+* Develop good _practices_ on using good _tools_
 
 [NOTE]
 [role="speaker"]
@@ -85,7 +78,7 @@ They're integral to today's computing infrastructure.
 
 * Many open source projects are _sponsored_ by _foundations_ and large _companies_.
 * Contributions associate you with their _work_ and _culture_.
-* Contributions also _signal_ your knowledge about the _problem_ and its _solutions_.
+* Contributions also _signal_ your knowledge about the _domain_, the _problems_ and their _solutions_.
 
 image:montage.png[Foundations,700]
 
@@ -94,127 +87,26 @@ image:montage.png[Foundations,700]
 ====
 * Open source has a viable business model because of the concept of professional open-source.
 * Companies pay individuals to build capabilities or maintain open-source software that they use.
-* When a company goes about hiring someone for a particular role, they like to choose the person most knowledgeable in their domain. Quite obvious isn't it?
+* When a company goes about hiring someone for a particular role or a company for building services, they like to choose the person most knowledgeable in their domain. Quite obvious isn't it?
 * When they use an OSS project, contributors stand to be the first to benefit, since they're most qualified.
 ====
 
 [.topic.source]
-== Some stats on the Linux Kernel
-[subtle]#From the Annual Linux Development Report 2013#
+== What do we infer?
 
 [.incremental]
-* Nearly _10,000_ developers from more than _1,000 companies_
-* Contributions from _1,100 developers_ from _225 companies_ in 2012
-* with growing numbers from _mobile_ and _embedded industries_.
+* For businesses, there is _little value_ in writing systems in a _closed room_.
+* There is an _opportunity cost_ associated with re-inventing the wheel.
+* Such costs are not isolated. Think of operating systems, databases, messaging queues, application servers, ERP suites, CMSs, CRMs, ...
 
-[NOTE]
-[role="speaker"]
-====
-* Need proof of companies investing in open source? Look no further.
-* Work done by contributors here find their way into the mainstream.
-* Servers in datacenters, laptops, workstations and Android devices all benefit from these contributions.
-====
-
-
-[.topic.source]
-== Some stats on the Linux Kernel
-[subtle]#Top 10 organizations sponsoring development, from the Annual Linux Development Report 2013#
-
-[.incremental.scatter.nolist]
-* _Red Hat_
-* _Intel_
-* _Texas Instruments_
-* _Linaro_
-* _SUSE_
-* _IBM_
-* _Samsung_
-* _Google_
-* _Vision Engraving Systems Consultants_
-* _Wolfson Microelectronics_
-
-[NOTE]
-[role="speaker"]
-====
-* And these are not done by small-timers.
-* The companies that happen to employ people to contribute to Linux have a vested stake in ensuring the success of their products and services.
-* Some want to ensure that their software runs on all Linux distributions, others want Linux to run on their hardware, while others want to offer Linux as a platform for businesses to operate on.
-====
-
-
-[.topic.source]
-== Build an independently verifiable resume
-
-Contributions are *independently verifiable* and *undisputable* facts.
-
-Why does it matter?
-
-[NOTE]
-[role="speaker"]
-====
-* Speaking of career development, OSS contributions lend to a trustworthy resume.
-* Why should hiring managers trust OSS contributors more?
-====
-
-[.topic.source]
-== Build an independently verifiable resume
-
-Independently Verifiable
-
-* The _burden of proof_ is not always on you.
-* Contributions are _public_: they can be examined and verified by others.
-* Contributions can be _verified_ in release notes, mailing list archives, bug trackers, commit logs, and more.
-
-[NOTE]
-[role="speaker"]
-====
-* Your professors would vouch for your today, but not for ever. Recent references carry a lot of weight. You'd eventually depend on references provided by your employers.
-* Proof of involvement is not merely filed away somewhere and locked up in the attic.
-* Hiring managers need not rely on word-of-mouth references from previous employers alone. They can look up contributions at their own discretion, not requiring the services of a gatekeeper.
-* Hiring managers can now verify the same data that they independently accessed.
-====
-
-[.topic.source]
-== Build an independently verifiable resume
-
-Undisputable
-
-* Projects guarantee all accredidation is accurate.
-* An accepted contribution has added value to the project.
-* Your code speaks for itself.
-
-[NOTE]
-[role="speaker"]
-====
-* Projects do bookkeeping activities, and most of them are automated.
-* If your contribution has been accepted to a project, you can claim so in your resume. You don't need to wait for a certificate.
-* You may not get references from project leads and committers always, but it is not impossible.
-====
-
-== !
-"... a real-world portfolio of work gives you an edge when applying for jobs. Contributing to an open source project provides you with that real-world portfolio ..."
--- Leslie Hawthorn
-
-[.topic.source]
-== An example
-
-[.middle]
-image::stackoverflow-resume.png[]
-
-[NOTE]
-[role="speaker"]
-====
-* Career portals now allow you to post open source projects that you've contributed to.
-* Needless to say, it makes sense to post those that have had an impact.
-* Be prepared to justify the importance of these projects to hiring managers who may not understand the community of users ;-)
-====
 
 [.topic.source]
 == Work with and learn from Really Smart People^TM^
 
-* Smart people tend to work with other smart people.
+* Smart people tend to _work with other smart people_.
 * An OSS project with smart people draws and fosters others.
 * Many of them will be glad to help you learn. Take them up on it.
-* Very high quality of discussion. No bike-shedding.
+* _Very high quality of discussion_. No bike-shedding.
 
 [NOTE]
 [role="speaker"]
@@ -229,10 +121,10 @@ image::stackoverflow-resume.png[]
 
 Learning takes many forms:
 
-* Understanding and fixing bugs.
-* Performing code reviews or having your code reviewed.
-* Deliberation over ideas.
-* Designing and implementing new features.
+* _Understanding_ and _fixing bugs_.
+* Performing _code reviews_ or having your code reviewed.
+* _Deliberation_ over ideas.
+* _Designing_ and _implementing_ new features.
 
 If you are _engaged in the project_, you will be _learning_.
 
@@ -245,6 +137,15 @@ If you are _engaged in the project_, you will be _learning_.
 * Doing this over a course of time increases your engagement with the project.
 * Engaging work increases cognitive function. This is a physiological behavior associated with dopamine. Working on stuff you like sometimes actually makes you smarter.
 ====
+
+[.topic.source]
+== Work with and learn from Really Smart People^TM^
+
+How do businesses gain?
+
+* Gain _access_ to smart people, their _experience and expertise_.
+* Attain some _degree of certainty_ over advances in technology, aka obtain _a crystal ball_.
+
 
 [.topic.source]
 == Getting started with OSS
@@ -269,7 +170,7 @@ If you are _engaged in the project_, you will be _learning_.
 [.topic.source]
 == A sustained contribution model
 
-* Be _persistent_. Continued contributions build respect.
+* Be _persistent_. Continued contributions build credibility.
 * Become a committer. You can do anything now !
 ** ...within reason :)
 * Become very _knowledgeable_ in an subject area. Create demand for you.
@@ -277,217 +178,41 @@ If you are _engaged in the project_, you will be _learning_.
 ** _Presenting_ at conferences
 ** _Reviewing_ books about the project, or even _authoring_ them.
 ** _Supporting_ related projects that build on yours.
-** _Consulting_ for companies part/full-time.
+** _Consulting_ for companies on projects requiring OSS expertise.
 
-[.topic.source]
-== Reflect, recalibrate
-
-image:ohloh-summary.png[]
-
-[NOTE]
-[role="speaker"]
-====
-* Sustained contributions would see your credibility rise in the community.
-* Do not be place emphasis on the number of commits and other 'gameable' figures.
-* Contributions to projects should be measured by "impact" through bug fixes affecting a large populace instead of micro-commits with no tangible value.
-====
-
-[.topic.source]
-== Reflect, recalibrate
-
-image:ohloh-timeline.png[]
-
-[NOTE]
-[role="speaker"]
-====
-* My contributions started nearly two years ago. Life was better immediately (more or less).
-* There is a gap due to a consulting engagement that arose directly out of OSS contributions- ~ 6 months after the first commit to Arquillian.
-* Book deals and offers to review books came in rather rapidly (with a year of contributing to Arquillian).
-* Do not get discouraged by projects that are not enlisted. There's several missing ones in this graph.
-* Focus on a select group of projects to maximize impact. You don't want to be a casual contributor to be forgotten very easily.
-* In the context of GlusterFS, you'll find related projects like Samba, NFS, OpenStack and OVirt.
-* And again don't fret over numbers. The decrease is a result of moving into a 'healthier, more sustainable' lifestyle to avoid burnout.
-====
 
 == !
 
 [.statement]
-The Gluster Community
+*Time for anecdotes* +
+From user to committer...
 
 == !
 
-"To create the world's largest and most dynamic community for open software-defined storage"
--- The Gluster Community Goal
+"A few years ago, I decided to write a General Ledger system, in Java EE."
+-- Yours truly
 
-[NOTE]
-[role="speaker"]
-====
-* Software defined storage is a buzzword IMO.
-* You may have heard of IAAS, SAAS, PAAS etc. SDS is a part of ITAAS.
-* It means that storage is delivered as a service
-* Gluster wants to become the one stop shop for anything related to software related to storage as a service.
-====
 
 [.topic.source]
-== A bit of history
+== The rationale behind contributing to Arquillian
 
-* Starts as an attempt to build supercomputers using commodity hardware
-* Storage becomes a bigger challenge and focus shifts to GlusterFS
-* GlusterFS starts getting noticed and people start using it
-
-[NOTE]
-[role="speaker"]
-====
-* Create software that would aggregate the performance of many small, off-the-shelf computers and present it as a single supercomputer.
-* GlusterFS was started as a part of this larger project.
-* Creating a reliable and robust distributed filesystem was much larger of a challenge than expected.
-** Availability, performance, correctness, etc.
-* A standalone version of GlusterFS was released.
-** Maybe v2
-* Users like that GlusterFS is simple setup and use.
-====
+* "I needed an equivalent of Jakarta Cactus for running _real_ tests, but something _nicer_."
+* "Spring JUnit runner _does not fit_ my needs."
+* "Arquillian is good, _but lacks support_ for WLS."
+* "I _need this now_! I cannot wait for a benefactor to write this. It can't be that hard."
+* "I better have some _control over the roadmap_ of the WebLogic adapter."
 
 [.topic.source]
-== A bit of history
+== And just how hard was this?
 
-* Better management arrives and adoption of GlusterFS increases
-* Red Hat becomes the primary sponsor for the Gluster community
-* Grows into a community for open source, software-defined storage
-
-[NOTE]
-[role="speaker"]
-====
-* Users still had to write configuration manually.
-* With the new distributed management framework (Glusterd), users only need to execute a few commands to get GlusterFS cluster running.
-* Gluster Inc was the primary sponsor till this time. Red Hat acquired Gluster Inc. in October 2011.
-* Red Hat launches a commercially supported version of GlusterFS called Red Hat Storage.
-* Interest in GlusterFS grew. There were more and more requests for collaboration with other projects.
-* So the community decided to change from being a single project community, to a multi-project one and become the premier community for open software defined storage.
-====
+* _Learning_ Arquillian _as a user_: ~ 1 weeks.
+* _Working on patches_ to _understand_ the codebase : ~ 6 weeks.
+* _Contributing_ the WLS adapter: ~ 1 week.
 
 [.topic.source]
-== So what is GlusterFS?
+== Cultural changes to expect
 
-GlusterFS is
-
-* an open source, distributed, clustered, parallel, scale-out ... filesystem
-* runs on commodity hardware
-* fully posix compliant
-* user friendly :)
-* easily extensible
-
-...and much more.
-
-[NOTE]
-[role="speaker"]
-====
-* These are all the common adjectives used when describing GlusterFS.
-* Scale out vs Scale up - More cheaper and smaller machines vs A single big powerful machine
-* You don't need specialized machines to run GlusterFS. Any normal computer would do.
-* You don't need to rewrite applications to get them to use GlusterFS.
-* The gluster management framework makes it very easy to setup and deploy a GlusterFS filesystem.
-* GlusterFS has a modular architechture. The filesystem is made up of independent parts, each of which provides a single feature, which can be combined together to get the filesystem you want.
-* If you want a feature, you just write a translator.
-* There is not tie-in. GlusterFS doesn't use any custom storage mechanisms. It lives on top of the underlying filesystem in your machine.
-* Your data is always available to you if you want to move away from GlusterFS.
-* Geo-replication, multiprotocol access, libgfapi etc.
-====
-
-[.topic.source]
-== Contributing to the GlusterFS community
-
-* Install and use GlusterFS
-** http://www.gluster.org/download
-** http://www.gluster.org/QuickStart
-* Join #gluster IRC channel on freenode.net
-* Subscribe to the gluster-users mailing list
-** http://www.gluster.org/interact/mailinglists/
-* Interact with other users and give feedback
-* File bugs
-** https://bugzilla.redhat.com/enter_bug.cgi?product=GlusterFS
-
-[NOTE]
-[role="speaker"]
-====
-* Vineet mentioned earlier, it is preferable to chose a project which you use.
-* It is essential that you understand a project, before you contribute to it.
-* Because only when you understand it will you be able to contribute to its betterment.
-* The best way to understand is to use it.
-* Interact with other users. Ask questions. Get Answers. Answer someone elses questions.
-* Give feedback not just on the software, but also on documentation, processes and the community as well
-* Also remember to file bugs when you have problem. This will ensure your problem doesn't go unnoticed.
-====
-
-[.topic.source]
-== Contributing to the GlusterFS project
-
-* Join #gluster-dev on freenode and the gluster-devel@nongnu.org mailing list
-* Pick something you want to work on:
-** http://is.gd/glusterfs_new_bugs
-** http://is.gd/glusterfs_backlog
-** If you want to do something not present in the above two places, start a discussion and get it on there
-* *Read the development workflow* document at http://gluster.org/simpledevworkflow
-* Contribute code!
-
-[NOTE]
-[role="speaker"]
-====
-* All the technical discussions on gluster happen here.
-* Even if you don't take an active part in the discussions in there you will learn a lot from just listening in.
-* glusterfs_new_bugs links to a bugzilla page with all GlusterFS bugs that haven't been given attention.
-* We have a pretty significant bug backlog. It needs cleaning and is something the community is working on.
-* glusterfs_backlog links to list of things we want to do for GlusterFS. It contains mainly a curated list of features and bugs that want to be addressed.
-* The bug backlist is sure to have something small with which you could start.
-* You will have new ideas when you have used the software.
-* It is important that you go read and at least make an effort to understand the development workflow before you do you actual coding.
-* This will clear most of you doubts on the processes we follow for the GlusterFS project.
-* If you have doubts, get them cleared using the communication channels mentioned above.
-* Finally, contribute code.
-====
-
-[.topic.source]
-== Gluster community is more than GlusterFS
-
-* Register on http://forge.gluster.org - the home of Open Source software-defined storage development
-* Contribute to a project of your choice
-* ...or start your own project and announce it to the community
-
-[NOTE]
-[role="speaker"]
-====
-* But the Gluster community is not just GlusterFS. It has multiple open source projects all centered around the central theme of storage.
-* And GlusterForge is where development on all these projects happen.
-* Project on the forge include
-** newer features for GlusterFS like compression, erasure coding etc.
-** multiple integration efforts with other projects, ovirt for example
-** tools to further ease glusterfs deployment
-** monitoring tools
-** language bindings for libgfapi
-====
-
-[.topic.source]
-== A Contest
-
-Kickstart your contributions with this small contest
-
-* Visit http://titanpad.com/gluster-misspellings and pick something to fix
-* Fix it and submit the fix
-* Show the submission at the Red Hat booth
-* Win goodies!!
-
-
-[NOTE]
-[role="speaker"]
-====
-* The intention here is to get you guys to install GlusterFS.
-* The actual intention is to get you familiarized with the GlusterFS contribution process.
-* We will be available to help you with any problems you may hit.
-* But don't just stop at this. Continue with your contributions and become a part of the Gluster community.
-====
-
-[.topic.source]
-== Credits
-
-NOTE: Slides generated with Asciidoctor and DZSlides backend
-
-NOTE: Original slide template - Dan Allen & Sarah White
+* _IRC_ is/was used pre-dominantly. _E-mail_ == slow.
+* _Traditional power structures_ may be non-existent.
+* Knowing the _right buttons to push_ is very important.
+* Better to do your homework - have a _checklist_ at hand.
